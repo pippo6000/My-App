@@ -59,7 +59,7 @@ input[type='text'] {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffe8e2;
   max-width: 300px;
-  height: 560px;
+  min-height: 560px;
   text-align: center;
   font-family: arial;
   margin: auto;
