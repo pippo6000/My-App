@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pippo6000/My-Cocktail/precache-manifest.0f924841d4012070844677afa4d7d1be.js"
+  "/pippo6000/My-Cocktail/precache-manifest.084c0c7f6ce5bf20b68c28108b025e46.js"
 );
 
 self.addEventListener('message', (event) => {
