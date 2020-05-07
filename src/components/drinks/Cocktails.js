@@ -18,11 +18,15 @@ const Cocktails = () => {
     return <Spinner />;
   }
 
+  if (drinks === null && random === null) {
+    return <h3>No search results...</h3>;
+  }
+
   return (
     <div className='grid-2'>
       {random === null && !loading
-        ? drinks.map(drink => <CocktailItem drink={drink} />)
-        : random.map(drink => <CocktailItem drink={drink} />)}
+        ? drinks.map((drink) => <CocktailItem drink={drink} />)
+        : random.map((drink) => <CocktailItem drink={drink} />)}
     </div>
   );
 };
